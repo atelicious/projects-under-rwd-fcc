@@ -1,0 +1,74 @@
+@import url('https://fonts-googleapis.com/css?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1ab1e5;
+  font-family: 'Roboto' sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  margin-bottom: 0;
+  color: #fff;
+}
+
+h1 + p {
+  margin-top: 0;
+  color: #fff
+}
+
+form {
+  background-color: #fff;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.4);
+  border-radius: 2px;
+  padding: 30px 20px; 
+  max-width: 450px;
+  margin: 40px auto;
+  
+}
+
+.form-control {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.form-control label {
+  display: block;
+  margin-bottom: 6px;
+}
+
+.form-control input, 
+.form-control select,
+.form-control textarea {
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.4);
+  font-family: inherit;
+  display: block;
+  width: 100%;
+  font-size: 14px;
+}
+
+.form-control input[type='radio'],  
+.form-control input[type='checkbox'] {
+  width: auto;
+  display: inline-block;
+}
+
+button {
+  background-color: #1ab1e5;
+  color: #fff;
+  border: 1px solid #1ab1e5;
+  border-radius: 2px;
+  font-size: inherit;
+  font-family: inherit;
+  display: block;
+  padding: 10px;
+  width: 100%
+}
+
+
