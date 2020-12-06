@@ -2,88 +2,91 @@
 
 <!-- This is my solution to Build a Tribute Page in freeCodeCamp's Responsive Web Design.
      You can view the original question and my codepen solution @ https://codepen.io/atelicious/full/MWjwYbV-->
-
-<link rel="stylesheet" href="styles.css">
-
-<nav>
-    <ul>
-      <li><a href="#main">About</a></li>
-      <li><a href="#popular">Popular Videos</a></li>
-      <li><a href="#testimonials">Testimonials</a></li>
-    <ul>
-      <li><a href="#social">Social</a></li>
-  </nav>
+<html>
+  <head>
+    <title>Tribute Page</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
   
-  <section id='main'>
-    <div class="container">
-      <div id="tribute-info" class='tribute-info'>
-        <h1 id="title">Corey Schafer</h1>
-        <p>Corey is a full-time content creator publishing regular Python tutorials on YouTube. He is a former Data Systems Engineer and Software Engineer. His hobbies aside from teaching ranges from Arduino programming to woodworking.</p>
+  <body>
+    <nav>
+        <ul>
+          <li><a href="#main">About</a></li>
+          <li><a href="#popular">Popular Videos</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+        <ul>
+          <li><a href="#social">Social</a></li>
+      </nav>
+  
+      <section id='main'>
+        <div class="container">
+          <div id="tribute-info" class='tribute-info'>
+            <h1 id="title">Corey Schafer</h1>
+            <p>Corey is a full-time content creator publishing regular Python tutorials on YouTube. He is a former Data Systems Engineer and Software Engineer. His hobbies aside from teaching ranges from Arduino programming to woodworking.</p>
         
-        <p id="img-caption">
-          He runs a popular <a href='https://www.youtube.com/user/schafer5' id='tribute-link' target='_blank'>Youtube Channel</a> for programmers interes ted in Python. His Youtube channel currently has more than 200+ video tutorials.
-        </p>
+            <p id="img-caption">
+              He runs a popular <a href='https://www.youtube.com/user/schafer5' id='tribute-link' target='_blank'>Youtube Channel</a> for programmers interes ted in Python. His Youtube channel currently has more than 200+ video tutorials.
+            </p>
         
-    <div class="g-ytsubscribe" data-channelid="UCCezIgC97PvUuR4_gbFUs5g" data-layout="full" data-count="default"></div>
-      </div>
-      <div id="img-div" class='img-div' >
-        <img id='image'class="small-image responsive-img" src='https://robocrop.realpython.net/?url=https%3A//files.realpython.com/media/rwhite-avatar.5cd0b2235c7d.7e54d4e854a2.jpg&w=556&h=556&mode=crop&sig=f3324e6b10aa069834c75f75c8552b1d7c61f1a7' alt='Corey Schafer'/>
-        <p id='img-caption'>Corey Schafer - <strong>Good Teacher</strong></p>
-      </div>
-    </div>
+        <div class="g-ytsubscribe" data-channelid="UCCezIgC97PvUuR4_gbFUs5g" data-layout="full" data-count="default"></div>
+          </div>
+          <div id="img-div" class='img-div' >
+            <img id='image'class="small-image responsive-img" src='https://robocrop.realpython.net/?url=https%3A//files.realpython.com/media/rwhite-avatar.5cd0b2235c7d.7e54d4e854a2.jpg&w=556&h=556&mode=crop&sig=f3324e6b10aa069834c75f75c8552b1d7c61f1a7' alt='Corey Schafer'/>
+            <p id='img-caption'>Corey Schafer - <strong>Good Teacher</strong></p>
+          </div>
+        </div>
     
-  <section>
+      <section>
   
-  <section id='popular' class='bg-red'>
-    <h2>Popular Videos</h2>
-    <div class="container">
+      <section id='popular' class='bg-red'>
+        <h2>Popular Videos</h2>
+        <div class="container">
+              <div class="video-wrapper">
+            <iframe src="https://www.youtube.com/embed/ZDa-Z5JzLYM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
           <div class="video-wrapper">
-        <iframe src="https://www.youtube.com/embed/ZDa-Z5JzLYM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-      <div class="video-wrapper">
-        <iframe src="https://www.youtube.com/embed/YYXdXT2l-Gg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-      <div class="video-wrapper">
-        <iframe src="https://www.youtube.com/embed/HVsySz-h9r4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-      <div class="video-wrapper">
-        <iframe src="https://www.youtube.com/embed/sugvnHA7ElY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-    </div>
+            <iframe src="https://www.youtube.com/embed/YYXdXT2l-Gg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="video-wrapper">
+            <iframe src="https://www.youtube.com/embed/HVsySz-h9r4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="video-wrapper">
+            <iframe src="https://www.youtube.com/embed/sugvnHA7ElY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
   
-  </section>
+      </section>
   
-  <section id='testimonials'>
-    <h2>Testimonials</h2>
-    <div class="container">
-          <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Corey your awesome! Thank you for all the tutorials. Everyone makes me a little bit hungrier to learn more. <a href="https://twitter.com/hashtag/LabEveryday?src=hash&amp;ref_src=twsrc%5Etfw">#LabEveryday</a> <a href="https://twitter.com/hashtag/100DaysOfCode?src=hash&amp;ref_src=twsrc%5Etfw">#100DaysOfCode</a> <a href="https://twitter.com/hashtag/ccnp?src=hash&amp;ref_src=twsrc%5Etfw">#ccnp</a> <a href="https://twitter.com/hashtag/ccna?src=hash&amp;ref_src=twsrc%5Etfw">#ccna</a> <a href="https://twitter.com/hashtag/DevNet?src=hash&amp;ref_src=twsrc%5Etfw">#DevNet</a></p>&mdash; Johnny Nieves (@Johnny_Nieves) <a href="https://twitter.com/Johnny_Nieves/status/1172324584558776320?ref_src=twsrc%5Etfw">September 13, 2019</a></blockquote> 
+      <section id='testimonials'>
+        <h2>Testimonials</h2>
+        <div class="container">
+              <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Corey your awesome! Thank you for all the tutorials. Everyone makes me a little bit hungrier to learn more. <a href="https://twitter.com/hashtag/LabEveryday?src=hash&amp;ref_src=twsrc%5Etfw">#LabEveryday</a> <a href="https://twitter.com/hashtag/100DaysOfCode?src=hash&amp;ref_src=twsrc%5Etfw">#100DaysOfCode</a> <a href="https://twitter.com/hashtag/ccnp?src=hash&amp;ref_src=twsrc%5Etfw">#ccnp</a> <a href="https://twitter.com/hashtag/ccna?src=hash&amp;ref_src=twsrc%5Etfw">#ccna</a> <a href="https://twitter.com/hashtag/DevNet?src=hash&amp;ref_src=twsrc%5Etfw">#DevNet</a></p>&mdash; Johnny Nieves (@Johnny_Nieves) <a href="https://twitter.com/Johnny_Nieves/status/1172324584558776320?ref_src=twsrc%5Etfw">September 13, 2019</a></blockquote> 
   
-      <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Thanks Corey for all your very great tutorials. I wish I could do more to support you. I&#39;m hoping you would do a tutorial on bytes, strings, decoding, and encoding soon</p>&mdash; Jude Leonard (@juudleonard) <a href="https://twitter.com/juudleonard/status/1275044944068083712?ref_src=twsrc%5Etfw">June 22, 2020</a></blockquote> 
+          <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Thanks Corey for all your very great tutorials. I wish I could do more to support you. I&#39;m hoping you would do a tutorial on bytes, strings, decoding, and encoding soon</p>&mdash; Jude Leonard (@juudleonard) <a href="https://twitter.com/juudleonard/status/1275044944068083712?ref_src=twsrc%5Etfw">June 22, 2020</a></blockquote> 
   
-      <blockquote class="twitter-tweet"><p lang="en" dir="ltr">He&#39;s back with another👌👌.Been waiting for the Data Visualization series continuation eagerly. Can&#39;t wait to watch and practice.</p>&mdash; Nicholas Karimi 🎙️ (@karimimuigai) <a href="https://twitter.com/karimimuigai/status/1184870799485878273?ref_src=twsrc%5Etfw">October 17, 2019</a></blockquote> 
+          <blockquote class="twitter-tweet"><p lang="en" dir="ltr">He&#39;s back with another👌👌.Been waiting for the Data Visualization series continuation eagerly. Can&#39;t wait to watch and practice.</p>&mdash; Nicholas Karimi 🎙️ (@karimimuigai) <a href="https://twitter.com/karimimuigai/status/1184870799485878273?ref_src=twsrc%5Etfw">October 17, 2019</a></blockquote> 
   
-      <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I&#39;m able to work at a startup now cause of watching your playlists online. We still haven&#39;t made money( products are under development) but I will definitely contribute once the finances are a little clear<br><br>Again, thank you so much for the videos. They really are a gold mine :)</p>&mdash; Vivek Teega (@vivekteega) <a href="https://twitter.com/vivekteega/status/1270453637441937408?ref_src=twsrc%5Etfw">June 9, 2020</a></blockquote> 
-    </div>
+          <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I&#39;m able to work at a startup now cause of watching your playlists online. We still haven&#39;t made money( products are under development) but I will definitely contribute once the finances are a little clear<br><br>Again, thank you so much for the videos. They really are a gold mine :)</p>&mdash; Vivek Teega (@vivekteega) <a href="https://twitter.com/vivekteega/status/1270453637441937408?ref_src=twsrc%5Etfw">June 9, 2020</a></blockquote> 
+        </div>
   
-  </section>
+      </section>
   
-  <section id='social' class='bg-red'>
-    <h2>Follow Corey on</h2>
-    <ul class='container social-ul'>
-      <li><a href="https://twitter.com/CoreyMSchafer" target='blank'><i class="fab fa-twitter"></i></a></li>
-      <li><a href="https://www.youtube.com/user/schafer5" target='blank'><i class="fab fa-youtube"></i></a></li>
-      <li><a href="https://github.com/CoreyMSchafer" target='blank'><i class="fab fa-github"></i></a></li>
-      <li><a href="https://www.instagram.com/coreymschafer/" target='blank'><i class="fab fa-instagram"></i></a></li>
-      <li><a href="https://plus.google.com/+CoreySchafer44/posts" target='blank'><i class="fab fa-google"></i></a></li>
-    </ul>
-  </section>
+      <section id='social' class='bg-red'>
+        <h2>Follow Corey on</h2>
+        <ul class='container social-ul'>
+          <li><a href="https://twitter.com/CoreyMSchafer" target='blank'><i class="fab fa-twitter"></i></a></li>
+          <li><a href="https://www.youtube.com/user/schafer5" target='blank'><i class="fab fa-youtube"></i></a></li>
+          <li><a href="https://github.com/CoreyMSchafer" target='blank'><i class="fab fa-github"></i></a></li>
+          <li><a href="https://www.instagram.com/coreymschafer/" target='blank'><i class="fab fa-instagram"></i></a></li>
+          <li><a href="https://plus.google.com/+CoreySchafer44/posts" target='blank'><i class="fab fa-google"></i></a></li>
+        </ul>
+      </section>
     
-  <footer>
-    A page dedicated to one of the best teachers of Python!
-  </footer>
+      <footer>
+        A page dedicated to one of the best teachers of Python!
+      </footer>
   
-  
-  
-  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-  <script src="https://apis.google.com/js/platform.js"></script>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <script src="https://apis.google.com/js/platform.js"></script>
+    </body>
+</html>
